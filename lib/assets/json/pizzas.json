@@ -1,0 +1,134 @@
+{
+  "pizzas": [
+    {
+      "_id": 1,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Napolitana",
+        "type": "vegetariana",
+        "description": "Uma pizza tradicional com o sabor autêntico da Itália, coberta com molho de tomate, mussarela, orégano e manjericão fresco.",
+        "ingredients": [
+          "molho de tomate",
+          "mussarela",
+          "orégano",
+          "manjericão"
+        ],
+        "price": 28.0,
+        "sizes": {
+          "Pequena": 28.0,
+          "Média": 38.0,
+          "Grande": 48.0
+        },
+        "image": "lib/assets/images/1.png"
+      }
+    },
+    {
+      "_id": 2,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Calabresa Suprema",
+        "type": "de carne",
+        "description": "A clássica pizza de calabresa elevada a outro nível, com azeitonas pretas, pimentões e cogumelos frescos.",
+        "ingredients": [
+          "calabresa",
+          "azeitonas pretas",
+          "pimentões",
+          "mussarela",
+          "cogumelos"
+        ],
+        "price": 30.0,
+        "sizes": {
+          "Pequena": 30.0,
+          "Média": 40.0,
+          "Grande": 50.0
+        },
+        "image": "lib/assets/images/2.png"
+      }
+    },
+    {
+      "_id": 3,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Quatro Queijos",
+        "type": "vegetariana",
+        "description": "Para os amantes de queijo, uma combinação irresistível de mussarela, parmesão, gorgonzola e catupiry.",
+        "ingredients": ["mussarela", "parmesão", "gorgonzola", "catupiry"],
+        "price": 35.0,
+        "sizes": {
+          "Pequena": 35.0,
+          "Média": 45.0,
+          "Grande": 55.0
+        },
+        "image": "lib/assets/images/3.png"
+      }
+    },
+    {
+      "_id": 4,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Frango com Catupiry",
+        "type": "de carne",
+        "description": "A clássica combinação de frango desfiado com o sabor cremoso do catupiry, finalizada com orégano e tomates frescos.",
+        "ingredients": ["frango desfiado", "catupiry", "orégano", "tomate"],
+        "price": 33.0,
+        "sizes": {
+          "Pequena": 33.0,
+          "Média": 43.0,
+          "Grande": 53.0
+        },
+        "image": "lib/assets/images/4.png"
+      }
+    },
+    {
+      "_id": 5,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Margherita",
+        "type": "vegetariana",
+        "description": "A simplicidade em sua forma mais deliciosa: tomate cereja, manjericão fresco e mussarela de búfala.",
+        "ingredients": ["tomate cereja", "manjericão", "mussarela fresca"],
+        "price": 25.0,
+        "sizes": {
+          "Pequena": 25.0,
+          "Média": 35.0,
+          "Grande": 45.0
+        },
+        "image": "lib/assets/images/5.png"
+      }
+    },
+    {
+      "_id": 6,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Pepperoni Clássica",
+        "type": "de carne",
+        "description": "A pizza mais popular do mundo, com fatias generosas de pepperoni sobre mussarela derretida e molho de tomate.",
+        "ingredients": [
+          "pepperoni",
+          "mussarela",
+          "molho de tomate",
+          "azeitonas"
+        ],
+        "price": 32.0,
+        "sizes": {
+          "Pequena": 32.0,
+          "Média": 42.0,
+          "Grande": 52.0
+        },
+        "image": "lib/assets/images/6.png"
+      }
+    }
+  ]
+}

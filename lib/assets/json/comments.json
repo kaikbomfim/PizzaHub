@@ -1,0 +1,202 @@
+{
+  "comments": [
+    {
+      "_id": 1,
+      "pizzaId": 1,
+      "user": {
+        "userId": 1,
+        "email": "joaosilva@email.com",
+        "name": "João Silva"
+      },
+      "datetime": "2024-12-05T12:00-0500",
+      "content": "A pizza Napolitana é maravilhosa! A combinação de manjericão com molho de tomate é simplesmente perfeita."
+    },
+    {
+      "_id": 2,
+      "pizzaId": 1,
+      "user": {
+        "userId": 2,
+        "email": "mariasouza@email.com",
+        "name": "Maria Souza"
+      },
+      "datetime": "2024-12-05T12:30-0500",
+      "content": "Adorei a pizza! A crocância da massa e o sabor dos ingredientes frescos fazem toda a diferença."
+    },
+    {
+      "_id": 3,
+      "pizzaId": 1,
+      "user": {
+        "userId": 3,
+        "email": "carloslima@email.com",
+        "name": "Carlos Lima"
+      },
+      "datetime": "2024-12-05T13:00-0500",
+      "content": "Eu sou fã de pizzas vegetarianas, e essa Napolitana superou minhas expectativas. Deliciosa!"
+    },
+    {
+      "_id": 4,
+      "pizzaId": 2,
+      "user": {
+        "userId": 1,
+        "email": "joaosilva@email.com",
+        "name": "João Silva"
+      },
+      "datetime": "2024-12-05T14:00-0500",
+      "content": "A Calabresa Suprema é uma explosão de sabores! As azeitonas e cogumelos adicionam um toque especial."
+    },
+    {
+      "_id": 5,
+      "pizzaId": 2,
+      "user": {
+        "userId": 2,
+        "email": "mariasouza@email.com",
+        "name": "Maria Souza"
+      },
+      "datetime": "2024-12-05T14:30-0500",
+      "content": "Pizza excelente! A calabresa é no ponto e combina bem com os outros ingredientes."
+    },
+    {
+      "_id": 6,
+      "pizzaId": 2,
+      "user": {
+        "userId": 3,
+        "email": "carloslima@email.com",
+        "name": "Carlos Lima"
+      },
+      "datetime": "2024-12-05T15:00-0500",
+      "content": "Minha pizza preferida! O sabor de calabresa é sempre uma escolha certeira."
+    },
+    {
+      "_id": 7,
+      "pizzaId": 3,
+      "user": {
+        "userId": 1,
+        "email": "joaosilva@email.com",
+        "name": "João Silva"
+      },
+      "datetime": "2024-12-05T16:00-0500",
+      "content": "A combinação de queijos nessa pizza é maravilhosa! Perfeita para quem ama queijos variados."
+    },
+    {
+      "_id": 8,
+      "pizzaId": 3,
+      "user": {
+        "userId": 2,
+        "email": "mariasouza@email.com",
+        "name": "Maria Souza"
+      },
+      "datetime": "2024-12-05T16:30-0500",
+      "content": "Deliciosa! A mistura de queijos é incrível, e a massa é bem crocante. Uma das minhas favoritas."
+    },
+    {
+      "_id": 9,
+      "pizzaId": 3,
+      "user": {
+        "userId": 3,
+        "email": "carloslima@email.com",
+        "name": "Carlos Lima"
+      },
+      "datetime": "2024-12-05T17:00-0500",
+      "content": "A pizza quatro queijos é ótima para quem gosta de sabores intensos. Excelente opção!"
+    },
+    {
+      "_id": 10,
+      "pizzaId": 4,
+      "user": {
+        "userId": 1,
+        "email": "joaosilva@email.com",
+        "name": "João Silva"
+      },
+      "datetime": "2024-12-05T18:00-0500",
+      "content": "Frango com Catupiry é sempre uma escolha certa. Sabor maravilhoso, e o catupiry deixa tudo mais cremoso."
+    },
+    {
+      "_id": 11,
+      "pizzaId": 4,
+      "user": {
+        "userId": 2,
+        "email": "mariasouza@email.com",
+        "name": "Maria Souza"
+      },
+      "datetime": "2024-12-05T18:30-0500",
+      "content": "A combinação do frango com catupiry é sensacional. Muito saborosa e leve!"
+    },
+    {
+      "_id": 12,
+      "pizzaId": 4,
+      "user": {
+        "userId": 3,
+        "email": "carloslima@email.com",
+        "name": "Carlos Lima"
+      },
+      "datetime": "2024-12-05T19:00-0500",
+      "content": "Uma pizza muito boa! O catupiry é o toque final perfeito para esse sabor."
+    },
+    {
+      "_id": 13,
+      "pizzaId": 5,
+      "user": {
+        "userId": 1,
+        "email": "joaosilva@email.com",
+        "name": "João Silva"
+      },
+      "datetime": "2024-12-05T20:00-0500",
+      "content": "Margherita é sempre uma excelente escolha. O manjericão fresco dá um sabor único."
+    },
+    {
+      "_id": 14,
+      "pizzaId": 5,
+      "user": {
+        "userId": 2,
+        "email": "mariasouza@email.com",
+        "name": "Maria Souza"
+      },
+      "datetime": "2024-12-05T20:30-0500",
+      "content": "Simples e deliciosa. Adorei o equilíbrio entre a mussarela de búfala e o tomate cereja."
+    },
+    {
+      "_id": 15,
+      "pizzaId": 5,
+      "user": {
+        "userId": 3,
+        "email": "carloslima@email.com",
+        "name": "Carlos Lima"
+      },
+      "datetime": "2024-12-05T21:00-0500",
+      "content": "A pizza Margherita é leve e saborosa. Ótima para quem busca algo simples, mas delicioso."
+    },
+    {
+      "_id": 16,
+      "pizzaId": 6,
+      "user": {
+        "userId": 1,
+        "email": "joaosilva@email.com",
+        "name": "João Silva"
+      },
+      "datetime": "2024-12-05T22:00-0500",
+      "content": "A pizza de pepperoni é uma das minhas preferidas! Sabor marcante e irresistível."
+    },
+    {
+      "_id": 17,
+      "pizzaId": 6,
+      "user": {
+        "userId": 2,
+        "email": "mariasouza@email.com",
+        "name": "Maria Souza"
+      },
+      "datetime": "2024-12-05T22:30-0500",
+      "content": "Pepperoni clássico, perfeito para quem adora um sabor mais forte. Adorei!"
+    },
+    {
+      "_id": 18,
+      "pizzaId": 6,
+      "user": {
+        "userId": 3,
+        "email": "carloslima@email.com",
+        "name": "Carlos Lima"
+      },
+      "datetime": "2024-12-05T23:00-0500",
+      "content": "Essa pizza de pepperoni é sempre uma boa pedida! O sabor é incrível."
+    }
+  ]
+}
