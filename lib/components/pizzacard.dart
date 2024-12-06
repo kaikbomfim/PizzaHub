@@ -34,7 +34,7 @@ class PizzaCard extends StatelessWidget {
               padding: const EdgeInsets.only(left: 10, top: 5, bottom: 10),
               child: Text(
                 pizza["pizza"]["description"],
-                maxLines: 2,
+                maxLines: 4,
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
                   fontSize: 14,

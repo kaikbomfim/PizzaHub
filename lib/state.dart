@@ -31,7 +31,7 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  void onLogin(User? user) {
+  void onLogin(User user) {
     _user = user;
 
     notifyListeners();

@@ -289,7 +289,7 @@ class _DetailsState extends State<Details> {
                 },
                 itemBuilder: (context, pagePosition) {
                   return Image.asset(
-                    _pizza["image"],
+                    _pizza["pizza"]["image"],
                     fit: BoxFit.cover,
                   );
                 },
@@ -333,13 +333,17 @@ class _DetailsState extends State<Details> {
                     )),
                 Padding(
                     padding: const EdgeInsets.all(4.0),
-                    child: Text(_pizza["pizza"]["description"],
+                    child: Text("Tipo: ${_pizza["pizza"]["description"]}",
+                        style: const TextStyle(fontSize: 12))),
+                Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: Text(_pizza["pizza"]["type"],
                         style: const TextStyle(fontSize: 12))),
                 Padding(
                   padding: const EdgeInsets.all(4.0),
                   child: Text(
                     isUserLoggedIn
-                        ? "Ingredientes: ${_pizza["ingredients"].join(", ")}"
+                        ? "Ingredientes: ${_pizza["pizza"]["ingredients"].join(", ")}"
                         : "Ingredientes não disponíveis",
                     style: const TextStyle(fontSize: 12),
                   ),
@@ -357,11 +361,12 @@ class _DetailsState extends State<Details> {
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: _pizza["sizes"].keys.map<Widget>((size) {
+                        children:
+                            _pizza["pizza"]["sizes"].keys.map<Widget>((size) {
                           return Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: Text(
-                              "$size: R\$ ${_pizza["sizes"][size].toStringAsFixed(2)}",
+                              "$size: R\$ ${_pizza["pizza"]["sizes"][size].toStringAsFixed(2)}",
                               style: const TextStyle(fontSize: 12),
                             ),
                           );

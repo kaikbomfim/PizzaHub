@@ -129,6 +129,191 @@
         },
         "image": "lib/assets/images/6.png"
       }
+    },
+    {
+      "_id": 7,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Hawaiana",
+        "type": "de carne",
+        "description": "Combinação de presunto, abacaxi e molho de tomate, criando o equilíbrio perfeito entre doce e salgado.",
+        "ingredients": ["presunto", "abacaxi", "mussarela", "molho de tomate"],
+        "price": 28.0,
+        "sizes": {
+          "Pequena": 28.0,
+          "Média": 38.0,
+          "Grande": 48.0
+        },
+        "image": "lib/assets/images/1.png"
+      }
+    },
+    {
+      "_id": 8,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Frutos do Mar",
+        "type": "frutos do mar",
+        "description": "Uma deliciosa mistura de camarões, moluscos e peixe, tudo coberto com molho branco e queijo.",
+        "ingredients": [
+          "camarões",
+          "moluscos",
+          "peixe",
+          "molho branco",
+          "queijo"
+        ],
+        "price": 40.0,
+        "sizes": {
+          "Pequena": 40.0,
+          "Média": 50.0,
+          "Grande": 60.0
+        },
+        "image": "lib/assets/images/2.png"
+      }
+    },
+    {
+      "_id": 9,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Vegetariana Deluxe",
+        "type": "vegetariana",
+        "description": "Uma pizza rica em legumes frescos, como cogumelos, pimentões, azeitonas e cebolas.",
+        "ingredients": [
+          "cogumelos",
+          "pimentões",
+          "azeitonas",
+          "cebolas",
+          "mussarela"
+        ],
+        "price": 33.0,
+        "sizes": {
+          "Pequena": 33.0,
+          "Média": 43.0,
+          "Grande": 53.0
+        },
+        "image": "lib/assets/images/3.png"
+      }
+    },
+    {
+      "_id": 10,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Peperoni Especial",
+        "type": "de carne",
+        "description": "Uma versão mais picante da tradicional pepperoni, com molho de pimenta e queijo extra.",
+        "ingredients": [
+          "pepperoni",
+          "molho de pimenta",
+          "mussarela extra",
+          "azeitonas"
+        ],
+        "price": 35.0,
+        "sizes": {
+          "Pequena": 35.0,
+          "Média": 45.0,
+          "Grande": 55.0
+        },
+        "image": "lib/assets/images/4.png"
+      }
+    },
+    {
+      "_id": 11,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Cheddar Bacon",
+        "type": "de carne",
+        "description": "Uma pizza com o sabor defumado do bacon e o cremoso cheddar derretido, com uma base de molho barbecue.",
+        "ingredients": ["bacon", "cheddar", "molho barbecue", "mussarela"],
+        "price": 38.0,
+        "sizes": {
+          "Pequena": 38.0,
+          "Média": 48.0,
+          "Grande": 58.0
+        },
+        "image": "lib/assets/images/5.png"
+      }
+    },
+    {
+      "_id": 12,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Frango BBQ",
+        "type": "de carne",
+        "description": "Uma pizza com frango grelhado e molho barbecue, complementada com cebolas caramelizadas e queijo.",
+        "ingredients": [
+          "frango grelhado",
+          "molho barbecue",
+          "cebolas caramelizadas",
+          "queijo"
+        ],
+        "price": 34.0,
+        "sizes": {
+          "Pequena": 34.0,
+          "Média": 44.0,
+          "Grande": 54.0
+        },
+        "image": "lib/assets/images/6.png"
+      }
+    },
+    {
+      "_id": 13,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Quatro Estações",
+        "type": "mista",
+        "description": "Uma pizza que reúne quatro sabores: presunto, cogumelos, calabresa e ovo.",
+        "ingredients": [
+          "presunto",
+          "cogumelos",
+          "calabresa",
+          "ovo",
+          "mussarela"
+        ],
+        "price": 36.0,
+        "sizes": {
+          "Pequena": 36.0,
+          "Média": 46.0,
+          "Grande": 56.0
+        },
+        "image": "lib/assets/images/1.png"
+      }
+    },
+    {
+      "_id": 14,
+      "company": {
+        "name": "PizzaHub"
+      },
+      "pizza": {
+        "name": "Mexicana",
+        "type": "de carne",
+        "description": "Uma pizza picante com carne moída, jalapeños e molho picante, ideal para quem adora um toque de pimenta.",
+        "ingredients": [
+          "carne moída",
+          "jalapeños",
+          "molho picante",
+          "mussarela"
+        ],
+        "price": 37.0,
+        "sizes": {
+          "Pequena": 37.0,
+          "Média": 47.0,
+          "Grande": 57.0
+        },
+        "image": "lib/assets/images/2.png"
+      }
     }
   ]
 }
